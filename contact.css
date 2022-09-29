@@ -1,0 +1,155 @@
+body {
+    background-color: #f4f4f4;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.8px;
+}
+
+h3 {
+   text-align: center;
+   margin-top: 30%;
+}
+
+#email-form {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+input {
+  display: inline-block;
+  border: 2px solid #000;
+  width: 200px;
+font-size: 17px;
+}
+
+#msg {
+    height: 75px;
+    margin-top: 0;
+}
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  height: 30px;
+  min-width: 170px;
+  justify-content: center;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -.8px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+#response {
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+ .grid-one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+ }
+
+ .grid-two {
+    grid-column: 2 / 3;
+    grid-row: 1;
+ }
+
+ .grid-three {
+    grid-column: 3 / 4;
+    grid-row: 1;
+ }
+
+ .grid-four {
+    grid-column: 1 / 2;
+    grid-row: 2;
+ }
+
+
+  .grid-five {
+    background-color: white;
+    grid-column: 2 / 3;
+    grid-row: 2;
+
+ }
+
+ .grid-six {
+    grid-column: 3 / 4;
+    grid-row: 2;
+ }
+
+ .grid-seven {
+    grid-column: 1 / 2;
+    grid-row: 3;
+ }
+
+ .grid-eight {
+    grid-column: 2 / 3;
+    grid-row: 3;
+ }
+
+ .grid-nine {
+    grid-column: 3 / 4;
+    grid-row: 3;
+ }
+
+
+
+ .form-invalid {
+   outline: 1px solid red !important;
+ }
+
+ form #website { display:none; }
