@@ -1,5 +1,4 @@
-  
-    <?php 
+<?php 
 
 $message_sent = false;
 if(isset($_POST['email']) && $_POST['email'] != ''){
