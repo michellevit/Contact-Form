@@ -11,12 +11,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         }
         else {
         // submit the form
-        $messageSubject = "New contact form submission (www.michelleflandin.com)";
+        $messageSubject = "New contact form submission";
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['message'];
     
-        $to = "mvflandin@gmail.com";
+        $to = ""; // ENTER RECEIVER EMAIL ADDRESS HERE
         $body = "";
     
         $body .= "From: ".$name. "\r\n";
